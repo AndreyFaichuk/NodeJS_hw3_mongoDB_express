@@ -14,6 +14,7 @@ function addTodo({name, status}) {
         const newTodo = new Todo({
             name: name || "no name was given",
             status: status || "no status was given"
+
         })
 
         await newTodo.save()
