@@ -24,6 +24,7 @@ function addTodo({name, status}) {
 }
 
 function removeTodo(todoId) {
+
     return (async () => await Todo.deleteOne({_id: todoId}))()
 }
 

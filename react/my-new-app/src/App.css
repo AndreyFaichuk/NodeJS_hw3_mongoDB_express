@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.users{
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px 0 10px 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.users span{
+  font-weight: bold;
+}
+
+.users p, span{
+  font-size: large;
+  padding: 0;
+  margin: 6px;
+}
+
+.users button {
+  margin: 15px 20px 15px 20px;
+  width: 35%;
+  height: 33px;
+}
+
+.Form{
+  width: 100%;
+}
+
+.forma{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 20px 0px;
+  align-items: center;
+}
+
+.forma input{
+  margin: 5px 0 5px 0;
+  width: 20%;
+  height: 30px;
+}
+
+.forma button{
+  width: 15%;
+  height: 30px;
+  margin: 20px 0 0 0;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.delete{
+  background-color: #ff7070;
+}
+
+.update{
+  background-color: #6ac4c4;
+}
+
+.forma-open{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+}
+
+.forma-open h5, input{
+  padding: 0;
+  margin: 0;
+}
+.forma-open h5 {
+  font-size: xx-small;
+}
+
+.forma-open input{
+  margin: 5px 0 5px 0;
+}
+
+.post{
+  background-color: #a3d9a3;
+}
+
+.back{
+  background-color: #ff7070;
+}
+
+.red{
+  border: 2px solid red;
+}
+
+.green{
+  border: 2px solid green;
+}
+
+.forma h5{
+  padding: 0;
+  margin: 0;
+  font-size: xx-small;
+}
+
+.greenFont{
+  color: green;
+}
+
+.showButton{
+  background-color: #ce99ff;
+}
+
+.deleteButton{
+  background-color: #ff7777;
+}
+
+.Form h4 {
+  text-align: center;
+}
+
+.updateButton{
+  background-color: #6ac4c4;
+}
+
+.users input{
+  margin: 15px;
+  padding: 8px;
+}
+
+.updateButton-green{
+  background-color: #a3d9a3;
+}
